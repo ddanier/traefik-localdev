@@ -2,7 +2,7 @@ name: traefik
 
 services:
   traefik:
-    image: docker.io/library/traefik:3.3
+    image: docker.io/library/traefik:3
     restart: always
     security_opt:
       - label=type:container_runtime_t
